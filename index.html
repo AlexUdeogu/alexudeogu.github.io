@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alex's Portfolio</title>
+    <link rel ="Stylesheet" href="Style.css">
+    <link rel="icon" href="images/favicon.ico" type="Image/x-icon">
+    <script src="https://kit.fontawesome.com/bdf463b1e7.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+        <nav>
+            <img src="images/titlettop.png" class="logo">
+            <ul id="sidemenu">
+                <li><a href="#header">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#service">Services</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <i class="fas fa-times" onclick="closemenu()"></i>
+            </ul>
+            <i class="fas fa-bars" onclick="openmenu()"></i>
+        </nav>
+            <div class="header-text">
+                <p>Frontend Dev/Graphics Designer</p>
+                <h1> Hey, I'm <span>Alex</span></h1>
+            </div>
+        </div>
+    </div>
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="images/user.png">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Alex</h1>
+                    <p>Hey there! I'm Alex Udeogu, a frontend dev and graphics design wizard, here to sprinkle coding magic and design sorcery on your projects. I'll make your website visually stunning, with pixel-perfect layouts and delightful animations. Get ready for a website that's brighter than the sun and cooler than a penguin on skates. Let's make some web magic together!</p>
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('Skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('Experience')">Experience</p>
+                        <p class="tab-links" onclick="opentab('Education')">Education</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="Skills">
+                        <ul>
+                            <li>
+                                <span>
+                                    Frontend Development
+                                </span>
+                                <br>
+                                Creating and Designing websites; HTML, CSS, and Javascript
+                            </li>
+                            <li>
+                                <span>
+                                    Graphics Design
+                                </span>
+                                <br>
+                                Photoshop, Illustrator and GIMP (GNU Image Manipulation Program)
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="Experience">
+                        <ul>
+                            <li>
+                                <span>
+                                    Jun 2023 - Present
+                                </span>
+                                <br>
+                                Lead Design at Hebron Startup Lab 
+                            </li>
+                            <li>
+                                <span>
+                                    Mar 2023 - Jun 2023
+                                </span>
+                                <br>
+                                Junior Graphics Designer
+                            </li>                                   
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="Education">
+                        <ul>
+                            <li>
+                                <span>
+                                    Nov 2021 - Present
+                                </span>
+                                <br>
+                                B.Sc Management Information Systems, Covenant University
+                            </li>
+                            <li>
+                                <span>
+                                    Sept 2015 - Oct 2021
+                                </span>
+                                <br>
+                                West African Senior School Certificate Examination, Topfaith International Secondary School
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+        </div>
+    </div>
+</div>
+
+<div id="service">
+    <div class="container">
+        <h1 class="sub-title">
+            My Services
+        </h1>
+        <div class="services-list">
+            <div>
+                <i class="fas fa-code"></i>
+                <h2>
+                    Frontend Development
+                </h2>
+                <p>
+                    I'm a web design magician with a knack for creating captivating online experiences. With expertise in HTML, CSS, and JavaScript, I craft visually stunning websites that leave a lasting impression. Get ready to be enchanted as I weave my design wizardry and take you on a journey of digital magic. Prepare to be captivated by the extraordinary web experiences I create.
+                </p>
+                <a href="https://github.com/AlexUdeogu"> Learn more</a>
+            </div>
+            <div>
+                <i class="fa-solid fa-pen-nib"></i>
+                <h2>
+                    Graphics Design
+                </h2>
+                <p>
+                    I'm a graphics design magician, specializing in creating captivating visual experiences. With my artistic expertise and mastery of design tools, I have the power to bring your ideas to life in stunning ways. From eye-catching illustrations to mesmerizing graphics, I'll leave a lasting impression on your audience.
+                </p>
+                <a href="https://www.behance.net/gallery/186695277/2023-Portfolio"> Learn more</a>
+            </div>
+        </div>
+    </div>
+</div>
+<!--contact me-->
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">
+                    Want To Vibe?
+                </h1>
+                <p><i class="fa-solid fa-envelope"></i></i>
+                    alexanderudeogu@gmail.com
+                </p>
+                <p><i class="fa-solid fa-phone"></i>
+                    +2347043976069
+                </p>
+                <div class="social-icons">
+                    <a href="https://www.linkedin.com/in/alex-udeogu-7a5622242/"><i class="fa-brands fa-linkedin"></i>
+                    <a href="https://twitter.com/AlexU34016"><i class="fab fa-twitter-square"></i></a>
+                    <a href="https://t.me/AlexUdeogu"><i class="fa-brands fa-telegram"></i></a>
+                    <a href="https://www.instagram.com/alexudeogu/"><i class="fa-brands fa-square-instagram"></i></a>
+                    <a href="https://github.com/AlexUdeogu"><i class="fa-brands fa-square-github"></i></a>
+                    <a href="https://www.behance.net/gallery/186695277/2023-Portfolio"><i class="fa-brands fa-square-behance"></i></a>
+                </div>
+                <a href="images/Udeogu Alex Main CV.pdf"  download class="btn btn2">Download CV</a>
+            </div>
+            <div class="contact-right">
+                <form name="submit-to-google-sheet">
+                    <input type="text" name="Name" placeholder="Your Name" required>
+                    <input type="email" name="Email" placeholder="Your Email" required>
+                    <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                    <button type="submit" class="btn btn2">Submit</button>
+                </form>
+                <span id="msg"></span>
+            </div>
+        </div>
+    </div>
+    <div class="copyright">
+        <p>Copyright © Alex Udeogu. <i>Peace Be The Journey</i></p>
+    </div>
+</div>
+
+    <script>
+        var tablinks = document.getElementsByClassName("tab-links");
+        var tabcontents = document.getElementsByClassName("tab-contents");
+
+        function opentab(tabname){
+            for(tablink of tablinks){
+                tablink.classList.remove("active-link");
+            }
+            for(tabcontent of tabcontents){
+                tabcontent.classList.remove("active-tab");
+            }
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab");
+        }
+    </script>
+    <script>
+        var sidemeu = document.getElementById("sidemenu");
+
+        function openmenu(){
+            sidemeu.style.right = "0";
+        }
+        function closemenu(){
+            sidemeu.style.right = "-200px";
+        }
+    </script>
+  
+  <script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbzsBMwmShxUIzSWLHXsScX4tdl8V9vXxyFwS6R3dYzlP1MRrZaZH0CVAccIGjswr1NCuA/exec'
+    const form = document.forms['submit-to-google-sheet']
+    const msg = document.getElementById("msg")
+  
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response => {
+            msg.innerHTML="Message sent successfully!"
+            setTimeout(function(){
+                msg.innerHTML = ""
+            },5000)
+            form.reset()
+        })
+        .catch(error => console.error('Error!', error.message))
+    })
+  </script>
+
+</body>
+</html>
